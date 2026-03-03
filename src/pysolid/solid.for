@@ -1559,9 +1559,9 @@
 
       implicit double precision(a-h,o-z)
       double precision tsec
-      !*** upper limit, leap second table, 2025dec28
+      !*** upper limit, leap second table, 2026dec28
       !*** lower limit, leap second table, 1972jan01
-      parameter(MJDUPPER=61037)
+      parameter(MJDUPPER=61402)
       parameter(MJDLOWER=41317)
 
       !*** leap second table limit flag
@@ -1642,7 +1642,7 @@
 ***** other leap second references at:
 ***** http://hpiers.obspm.fr/eoppc/bul/bulc/Leap_Second_History.dat
 ***** http://hpiers.obspm.fr/eoppc/bul/bulc/bulletinc.dat
-***** File expires on 28 December 2025
+***** File expires on 28 December 2026
 
 *** test against newest leaps first
 
